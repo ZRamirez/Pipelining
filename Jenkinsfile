@@ -4,7 +4,6 @@ terpipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
-                echo 'mvn -- version'
             }
         }
     }
